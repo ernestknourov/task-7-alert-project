@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    environment:
+      - PYTHONBUFFERED=1
